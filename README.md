@@ -62,4 +62,4 @@ DEFAULT | Default - Google Search | [https://google.com/](https://google.com/)
 
 ## Running locally
 
-Since we use `import` module syntax, we need to run a server to bypass CORS issues. You can setup the server by running `npm install`, followed by `node server.js`. The server should be up and visible at `localhost:3000`.
+Since we use `import` module syntax, we need to run a server to bypass CORS issues. You can setup the server by running `npm install`, followed by `node server.js`. The server should be up and visible at `localhost:3000`
