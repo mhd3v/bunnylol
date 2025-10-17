@@ -28,7 +28,7 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
     mail: {
         name: "Gmail",
         url: "https://mail.google.com/mail/u/0",
-        searchurl: "https://mail.google.com/mail/u/0/#search/="
+        searchurl: "https://mail.google.com/mail/u/0/#search/"
     },
     gd: {
         name: "Google Drive",
