@@ -25,10 +25,10 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         name: "WhatsApp Web",
         url: "https://web.whatsapp.com/"
     },
-    gm: {
+    mail: {
         name: "Gmail",
         url: "https://mail.google.com/mail/u/0",
-        searchurl: "https://mail.google.com/mail/u/0/#search/q="
+        searchurl: "https://mail.google.com/mail/u/0/#search/="
     },
     gd: {
         name: "Google Drive",
@@ -45,29 +45,10 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         url: "https://youtube.com/",
         searchurl: "https://www.youtube.com/results?search_query="
     },
-    gh: {
+    git: {
         name: "GitHub",
         url: "https://github.com/",
         searchurl: "https://www.github.com/search?q="
-    },
-    r: {
-        name: "Reddit",
-        url: "https://reddit.com/",
-        searchurl: "https://www.reddit.com/search?q="
-    },
-    l: {
-        name: "Linkedin",
-        url: "https://linkedin.com/",
-    },
-    ig: {
-        name: "Instagram",
-        url: "https://instagram.com/",
-        searchurl: "https://instagram.com/"
-    },
-    tw: {
-        name: "Twitter",
-        url: "https://twitter.com/",
-        searchurl: "https://twitter.com/search?q="
     },
     me: {
         name: "Mahad Aamir - Personal Website",
@@ -77,10 +58,6 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         name: "Google",
         url: "https://google.com/",
         searchurl: "https://www.google.com/search?q="
-    },
-    vs: {
-        name: "VS Code",
-        url: "vscode://",
     },
     code: {
         name: "VS Code",
@@ -93,6 +70,14 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
     cal: {
         name: "Google Calendar",
         url: "https://calendar.google.com/calendar/r"
+    },
+    jira: {
+        name: "Jira",
+        url: "https://nelly.atlassian.net/jira/software/c/projects/NCE/boards/21",
+    },
+    mono: {
+        name: 'Monorepo',
+        url: 'https://github.com/nelly-solutions/nelly-mono/'
     },
     DEFAULT: {
         name: "Default - Google Search",
