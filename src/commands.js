@@ -82,7 +82,7 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
     qq: {
         name: 'ChatGPT',
         url: 'https://chat.openai.com/',
-        searchurl: 'https://chatgpt.com/search?q='
+        searchurl: 'https://chatgpt.com/?q='
     },
     
     DEFAULT: {
