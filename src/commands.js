@@ -48,7 +48,7 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
     git: {
         name: "GitHub",
         url: "https://github.com/",
-        searchurl: "https://www.github.com/search?q="
+        searchurl: "https://github.com/search?type=code&ref=advsearch&q=org%3Anelly-solutions+"
     },
     me: {
         name: "Mahad Aamir - Personal Website",
@@ -79,6 +79,12 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         name: 'Monorepo',
         url: 'https://github.com/nelly-solutions/nelly-mono/'
     },
+    qq: {
+        name: 'ChatGPT',
+        url: 'https://chat.openai.com/',
+        searchurl: 'https://chatgpt.com/search?q='
+    },
+    
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
