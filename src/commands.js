@@ -90,6 +90,11 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         url: 'https://eu-central-1.console.aws.amazon.com/',
         searchurl: 'https://eu-central-1.console.aws.amazon.com/'
     },
+    dd: {
+        name: 'DataDog',
+        url: 'https://app.datadoghq.eu/',
+        searchurl: 'https://app.datadoghq.eu/'
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
