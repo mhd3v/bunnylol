@@ -74,6 +74,7 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
     jira: {
         name: "Jira",
         url: "https://nelly.atlassian.net/jira/software/c/projects/NCE/boards/21",
+        searchurl: "https://nelly.atlassian.net/browse/"
     },
     mono: {
         name: 'Monorepo',
@@ -83,6 +84,11 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         name: 'ChatGPT',
         url: 'https://chatgpt.com',
         searchurl: 'https://chatgpt.com/?q='
+    },
+    aws: {
+        name: 'AWS Console',
+        url: 'https://eu-central-1.console.aws.amazon.com/',
+        searchurl: 'https://eu-central-1.console.aws.amazon.com/'
     },
     DEFAULT: {
         name: "Default - Google Search",
