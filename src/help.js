@@ -3,7 +3,6 @@
 import type {CommandNames, CommandDataTableType, ColumnDataTableType} from './commands.js';
 
 import {COMMANDS} from './commands.js';
-import {CLASSES} from './classes.js';
 
 export const viewHelpPage: () => void = function(){
     const data: Array<CommandDataTableType> = Object.keys(COMMANDS).map((command: CommandNames) => {
