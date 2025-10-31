@@ -36,7 +36,7 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         searchurl: "https://drive.google.com/drive/u/"
     },
     docs: {
-        name: "Google Drive",
+        name: "Google Docs",
         url: "https://docs.google.com/",
         searchurl: "https://docs.google.com/document/u/0/?search_query="
     },
@@ -78,7 +78,13 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
     },
     mono: {
         name: 'Monorepo',
-        url: 'https://github.com/nelly-solutions/nelly-mono/'
+        url: 'https://github.com/nelly-solutions/nelly-mono/',
+        searchurl: 'https://github.com/nelly-solutions/nelly-mono/pull/'
+    },
+    infra: {
+        name: 'Infra',
+        url: 'https://github.com/nelly-solutions/infrastructure/',
+        searchurl: 'https://github.com/nelly-solutions/infrastructure/pull/'
     },
     qq: {
         name: 'ChatGPT',
