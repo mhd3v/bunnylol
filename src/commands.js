@@ -101,6 +101,11 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         url: 'https://app.datadoghq.eu/',
         searchurl: 'https://app.datadoghq.eu/'
     },
+    maps: {
+        name: 'Google Maps',
+        url: 'https://maps.google.com/',
+        searchurl: 'https://www.google.com/maps/search/'
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
