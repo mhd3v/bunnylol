@@ -106,6 +106,11 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         url: 'https://maps.google.com/',
         searchurl: 'https://www.google.com/maps/search/'
     },
+    ff: {
+        name: 'Feature Flags',
+        url: 'https://app.eu.launchdarkly.com/projects/default/flags',
+        searchurl: 'https://app.eu.launchdarkly.com/projects/default/flags?q=',
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
