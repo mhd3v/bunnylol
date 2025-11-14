@@ -111,6 +111,15 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         url: 'https://app.eu.launchdarkly.com/projects/default/flags',
         searchurl: 'https://app.eu.launchdarkly.com/projects/default/flags?q=',
     },
+    t: {
+        name: 'Google Translate',
+        url: 'https://translate.google.com/',
+        searchurl: 'https://translate.google.com/?sl=auto&tl=en&text=',
+    },
+    pr: {
+        name: 'Pull Requests - GitHub',
+        url: 'https://github.com/pulls'
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
