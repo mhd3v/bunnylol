@@ -73,7 +73,7 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
     },
     jira: {
         name: "Jira",
-        url: "https://nelly.atlassian.net/jira/software/c/projects/NCE/boards/21",
+        url: "https://nelly.atlassian.net/jira/software/c/projects/CD/boards/678",
         searchurl: "https://nelly.atlassian.net/browse/"
     },
     mono: {
