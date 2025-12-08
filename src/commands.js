@@ -7,7 +7,7 @@ export type CommandType = {|
 |};
 
 export type CommandNames = 'fb' | 'm' | 'mw' | 'wa' | 'waw' | 'gm' | 'sis' | 'col' | 'yt' | 'tv' | 'gh' | 'r' | 'l' | 'me' | 'ig' | 'tw' | 'tr' | 'vs' | 'todo' |
-                           'c' | 'wf' | '$' | 'cal' | 'uvacovid' | 'hs' | 'p' | 'n' | 'h' | 'pv' | 'gd' | 'wp' | 'wsj' | 'cnn' | 'wiki' | 'g' | 'DEFAULT';
+                           'c' | 'wf' | '$' | 'cal' | 'uvacovid' | 'hs' | 'p' | 'n' | 'h' | 'pv' | 'gd' | 'wp' | 'wsj' | 'cnn' | 'wiki' | 'g' | 'ytc' | 'DEFAULT';
 
 export type CommandDataTableType = {|
     name: string, 
@@ -44,6 +44,11 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         name: "YouTube",
         url: "https://youtube.com/",
         searchurl: "https://www.youtube.com/results?search_query="
+    },
+    ytc: {
+        name: "YouTube Converter",
+        url: "https://btqbhxgmtg6hdv7fn4fc2rivwa0bdheo.lambda-url.eu-central-1.on.aws/",
+        searchurl: "https://btqbhxgmtg6hdv7fn4fc2rivwa0bdheo.lambda-url.eu-central-1.on.aws/?youtubeUrl="
     },
     git: {
         name: "GitHub",
