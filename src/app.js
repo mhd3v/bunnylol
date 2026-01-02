@@ -29,10 +29,10 @@ const bunnylol: (string) => Promise<boolean> = async function (
     if (prefix in COMMANDS) {
       // $FlowFixMe - this is actually correct since the prefix is a key.
       const command: CommandType = COMMANDS[prefix];
-      const protocol: string = new URL(command.url).protocol;
-      if (protocol !== "https:" && protocol !== "http:") {
-        viewHelpPage();
-      }
+      // const protocol: string = new URL(command.url).protocol;
+      // if (protocol !== "https:" && protocol !== "http:") {
+      //   viewHelpPage();
+      // }
       if (command.searchurl && arr.length !== 1) {
         const searchParam = prefix !== "$" ? prefix.length + 1 : prefix.length;
         await redirect(
