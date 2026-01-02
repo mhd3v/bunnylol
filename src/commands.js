@@ -125,6 +125,10 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         name: 'Pull Requests - GitHub',
         url: 'https://github.com/pulls'
     },
+    dl: {
+        name: 'Custom Deeplink',
+        url: 'exp://192.168.178.75:8081/--/habit/default_1?action=complete'
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
