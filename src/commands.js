@@ -129,6 +129,14 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         name: 'Custom Deeplink',
         url: 'exp://192.168.178.75:8081/--/habit/default_1?action=complete'
     },
+    lc: {
+        name: 'Leetcode',
+        url: 'https://leetcode.com/problemset/'
+    },
+    nc: {
+        name: 'Neecode',
+        url: 'https://neetcode.io/'
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
