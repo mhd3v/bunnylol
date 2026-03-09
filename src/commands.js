@@ -137,6 +137,16 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         name: 'Neecode',
         url: 'https://neetcode.io/'
     },
+    li: {
+        name: 'Linear',
+        url: 'https://linear.app/nelly-solutions/team/CD/all',
+        searchurl: 'https://linear.app/nelly-solutions/issue/'
+    },
+    az: {
+        name: 'Amazon',
+        url: 'https://www.amazon.de/',
+        searchurl: 'https://www.amazon.de/s?k='
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
