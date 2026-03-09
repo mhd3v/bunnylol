@@ -147,6 +147,11 @@ export const COMMANDS: {[CommandNames] : CommandType} = {
         url: 'https://www.amazon.de/',
         searchurl: 'https://www.amazon.de/s?k='
     },
+    ai: {
+        name: 'Claude',
+        url: "https://claude.ai/new",
+        searchurl: "https://claude.ai/new?q="
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
